@@ -8,13 +8,9 @@ func main() {}
 
 // Manacher’s Algorithm
 func longestPalindrome(s string) string {
-
 	t := transform(s)
-
 	p := make([]int, len(t))
-
 	id, m := 0, 0
-
 	maxLen, maxLenCenter := 0, 0
 
 	for i := range p {
@@ -61,6 +57,7 @@ func transformBack(s string) string {
 			sb.WriteRune(c)
 		}
 	}
+
 	return sb.String()
 }
 
@@ -68,5 +65,6 @@ func min(x, y int) int {
 	if x < y {
 		return x
 	}
+
 	return y
 }
