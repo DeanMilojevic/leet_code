@@ -7,7 +7,7 @@ import (
 func Test01(t *testing.T) {
 	result := longestPalindrome("babab")
 
-	if result != "bab" {
+	if result != "babab" {
 		t.Fail()
 	}
 }
