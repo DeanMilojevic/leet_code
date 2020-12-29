@@ -17,3 +17,4 @@ Project for solutions to the [LeetCode Problems](https://leetcode.com/problemset
 7. [Reverse integer](/Go/reverse_integer/solution.go)
 8. [String to Integer (atoi)](/Go/string_to_integer_atoi/solution.go)
 9. [Palindrome number](/Go/palindrome_number/solution.go)
+10. [Regular expression matching](/Go/regular_expression_matching/solution.go)
